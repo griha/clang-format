@@ -1,10 +1,10 @@
 ﻿---
 BasedOnStyle: Google
-AlignAfterOpenBracket: Align
+AlignAfterOpenBracket: DontAlign
 AlignConsecutiveAssignments: 'false'
 AlignConsecutiveDeclarations: 'false'
-AlignOperands: 'true'
-AlignTrailingComments: 'true'
+AlignOperands: 'false'
+AlignTrailingComments: 'false'
 AllowAllParametersOfDeclarationOnNextLine: 'true'
 AllowShortBlocksOnASingleLine: 'true'
 AllowShortCaseLabelsOnASingleLine: 'false'
@@ -12,7 +12,7 @@ AllowShortFunctionsOnASingleLine: None
 AllowShortIfStatementsOnASingleLine: 'false'
 AllowShortLoopsOnASingleLine: 'false'
 AlwaysBreakAfterReturnType: None
-AlwaysBreakBeforeMultilineStrings: 'false'
+AlwaysBreakBeforeMultilineStrings: 'true'
 AlwaysBreakTemplateDeclarations: 'true'
 AccessModifierOffset: -5
 BinPackArguments: 'true'
@@ -26,9 +26,10 @@ ConstructorInitializerAllOnOneLineOrOnePerLine: 'true'
 ContinuationIndentWidth: '5'
 ExperimentalAutoDetectBinPacking: 'false'
 IndentWidth: '5'
-IndentCaseLabels: 'false'
+IndentCaseLabels: 'true'
 IndentWrappedFunctionNames: 'true'
 Language: Cpp
+PointerAlignment: Left
 SortIncludes: 'false'
 SpaceAfterCStyleCast: 'true'
 SpaceBeforeAssignmentOperators: 'true'
