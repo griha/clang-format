@@ -1,11 +1,11 @@
-﻿---
+---
 BasedOnStyle: Google
 AlignAfterOpenBracket: DontAlign
 AlignConsecutiveAssignments: 'false'
 AlignConsecutiveDeclarations: 'false'
 AlignOperands: 'false'
-AlignTrailingComments: 'false'
-AllowAllParametersOfDeclarationOnNextLine: 'true'
+AlignTrailingComments: 'true'
+AllowAllParametersOfDeclarationOnNextLine: 'false'
 AllowShortBlocksOnASingleLine: 'true'
 AllowShortCaseLabelsOnASingleLine: 'false'
 AllowShortFunctionsOnASingleLine: None
@@ -15,16 +15,17 @@ AlwaysBreakAfterReturnType: None
 AlwaysBreakBeforeMultilineStrings: 'true'
 AlwaysBreakTemplateDeclarations: 'true'
 AccessModifierOffset: -5
-BinPackArguments: 'true'
-BinPackParameters: 'true'
+BinPackArguments: 'false'
+BinPackParameters: 'false'
 BreakBeforeBinaryOperators: None
 BreakBeforeBraces: Custom
 BreakBeforeTernaryOperators: 'true'
-BreakConstructorInitializersBeforeComma: 'false'
+BreakConstructorInitializersBeforeComma: 'true'
 ColumnLimit: '120'
-ConstructorInitializerAllOnOneLineOrOnePerLine: 'true'
+ConstructorInitializerAllOnOneLineOrOnePerLine: 'false'
 ContinuationIndentWidth: '5'
 ExperimentalAutoDetectBinPacking: 'false'
+FixNamespaceComments: 'true'
 IndentWidth: '5'
 IndentCaseLabels: 'true'
 IndentWrappedFunctionNames: 'true'
@@ -57,4 +58,3 @@ BraceWrapping:
   IndentBraces:    false
 Cpp11BracedListStyle: false
 MaxEmptyLinesToKeep: 2
-...
